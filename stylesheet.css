@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin:0;
+    border: 0;
+}
+html{
+}
+body{
+    background-color: black;
+}
+
+#myContainer{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Assets/SplashScreen.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
