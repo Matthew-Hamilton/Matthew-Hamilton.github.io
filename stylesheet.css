@@ -12,7 +12,7 @@ body{
 #myContainer{
     width: 100vw;
     height: 100vh;
-    background-image: url(Assets/SplashScreen.png);
+    background-image: url(../Assets/SplashScreen.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
