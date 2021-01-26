@@ -112,7 +112,7 @@ header{
 
 .MainContent{
     position: relative;
-    background-color: #767676;
+    background-color:rgb(118,118,118,0.4);
     height: 80vh;
     width: 70vw;
     left: 15vw;
