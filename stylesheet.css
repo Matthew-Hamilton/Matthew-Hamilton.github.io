@@ -131,15 +131,15 @@ header{
 
 #MyPhoto{
     position: absolute;
-    height: 10vw;
-    width: 10vw;
+    height: 15vw;
+    width: 15vw;
     background-color: White;
     border-radius: 50%;
     border: 5px solid white;
-    top:calc(1/10vw);
+    top:-.5vw;
     z-index: 100;
-    left: 1.5%;
-    background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/Profile.jpg);
+    left: calc(32.5vw);
+    background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/MeIcon.jpg);
     background-size: contain;
     box-shadow: 0 5px 0 0 rgb(0,0,0,0.2);
 }
@@ -147,14 +147,19 @@ header{
     font-family: TitleFonts;
     font-size: 6vh;
     text-align: center;
-    padding-top: 0.6vh;
     color: #40a1b1;
     position: absolute;
-    max-height: 50%;
+    max-height: 7.5vh;
     width: 100%;
-    top: 25%;
+    top: 5vw;
     background-color: #f4f4f4;
     box-shadow: 0 5px 0 0 rgb(0,0,0,0.2);
     border-radius: 5px;
+}
+
+.Thirds
+{
+    float: left;
+    width: 33%;
 }
 
