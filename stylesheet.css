@@ -21,6 +21,10 @@ a{
     text-decoration: none;
 }
 
+div{
+    user-select: none;
+}
+
 #myContainer{
     width: 100vw;
     height: 100vh;
@@ -50,6 +54,7 @@ header{
 }
 
 .MenuButton{
+    user-select: none;
     font-family:TitleFonts; 
     color: #767676;
     font-size: 2vh;
@@ -106,23 +111,23 @@ header{
 
 .PersonalHeader{
     position: relative;
-    width:120%;
+    width:80vw;
     height: 15vh;
-    right: 10%;
+    right: 5vw;
     top: 5vh;
 }
 
 
 #MyPhoto{
     position: absolute;
-    height: 100%;
-    width: 15vh;
+    height: 10vw;
+    width: 10vw;
     background-color: White;
     border-radius: 50%;
     border: 5px solid white;
-    top:0;
+    top:calc(1/10vw);
     z-index: 100;
-    left: 2.5%;
+    left: 1.5%;
     background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/Profile.jpg);
     background-size: contain;
     box-shadow: 0 5px 0 0 rgb(0,0,0,0.2);
