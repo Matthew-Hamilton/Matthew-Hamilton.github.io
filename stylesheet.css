@@ -160,6 +160,27 @@ header{
 .Thirds
 {
     float: left;
-    width: 33%;
+    width: 33vw;
 }
 
+
+@media screen and (max-width: 1410px)
+{
+    #MyPhoto
+    {
+        left: -5vw;
+        height: 20vw;
+        width: 20vw;
+    }
+    #ColourStrip{
+        max-height: calc(20vw/2);
+        height: calc(20vw/2);
+    }
+    .Thirds
+    {
+        font-size: calc(20vw/5);
+        width: 100%;
+        max-height: 50%;
+        height 50%;
+    }
+}
