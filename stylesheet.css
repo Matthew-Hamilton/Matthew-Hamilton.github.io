@@ -139,7 +139,7 @@ header{
     top:-.5vw;
     z-index: 100;
     left: calc(32.5vw);
-    background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/MeIcon.jpg);
+    background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/MeFace.jfif);
     background-size: contain;
     box-shadow: 0 5px 0 0 rgb(0,0,0,0.2);
 }
@@ -155,6 +155,7 @@ header{
     background-color: #f4f4f4;
     box-shadow: 0 5px 0 0 rgb(0,0,0,0.2);
     border-radius: 5px;
+    align-items: center;
 }
 
 .Thirds
@@ -164,7 +165,7 @@ header{
 }
 
 
-@media screen and (max-width: 1410px)
+@media screen and (max-width: 1500px)
 {
     #MyPhoto
     {
