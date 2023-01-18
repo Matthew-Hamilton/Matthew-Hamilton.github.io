@@ -6,18 +6,19 @@
         <link rel="icon" type="image/png" href="Assets/LogoDesignIcon.png">
         <style>
   iframe {
-    width: 800px;
-    height: 600px;
+    width: 960px;
+    height: 640px;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
+      overflow: hidden;
   }
 </style>
     </head>
     
     <body>
-        <div id="myContainer"style="background-image: url(https://raw.githubusercontent.com/Matthew-Hamilton/Matthew-Hamilton.github.io/master/Assets/HexGridBackground.png)">
+        <div id="myContainer"style="background-image: url(Assets/TechtrisBackground.png)">
             <header>
                 <a class="Logo" href="index.html"></a>
                 <a class="MenuButton" id="home" href="index.html">Profile</a>
@@ -33,9 +34,9 @@
             
             <div class="MainContent">
                 <div class="PersonalHeader">
-                    <div id="ColourStrip">Techtris</div>
+                    <div id="ColourStrip" style="height: 75vh;">Techtris</div>
                 </div>
-                <iframe src="TechtrisGame.html" frameborder="0"></iframe>
+                <iframe src="TechtrisGame.html" frameborder="0" scrolling="no"></iframe>
             </div>
             
         </div>
